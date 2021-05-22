@@ -1,5 +1,8 @@
 body {
 	background-color: violet
+}
+header {
 	font-size: 175%;
+	font-style: cursive;
 	text-align: center;
 }
