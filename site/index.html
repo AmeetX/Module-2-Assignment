@@ -20,6 +20,12 @@
 .row {
 	width: 100%;
 }
+.positioned {
+	position: static;
+	background-color: grey;
+	top: 0px;
+	right: 0px;
+}
 
 /*****For large devices only*****/
 @media (min-width: 992px) {
@@ -111,11 +117,11 @@
 <body>
 <h1>Our Menu</h1>
 <div class="row">
-	<div class="col-lg-4 col-md-6"><p>Chicken<br>
+	<div class="col-lg-4 col-md-6"><p>Chicken<br class="positioned">
 	Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p></div>
-	<div class="col-lg-4 col-md-6"><p>Rice<br>
+	<div class="col-lg-4 col-md-6"><p>Rice<br class="positioned">
 	Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p></div>
-	<div class="col-lg-4 col-md-12"><p>Bread<br>
+	<div class="col-lg-4 col-md-12"><p>Bread<br class="positioned">
 	Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p></div>
 </div>
 </body>
